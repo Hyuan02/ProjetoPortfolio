@@ -29,7 +29,7 @@ body{
 #BotaoContato{
   position:absolute;
   margin-left:80%;
-  margin-top:-3.1%;
+  margin-top:-3.3%;
   background-color:#245c6b;
   border:none;
   width:10%;
@@ -38,8 +38,11 @@ body{
   color:white;
   font-weight:bold;
   font-size:1.2em;
-  border-radius:15px;
+  border-radius:25px;
   display:inline-block;
+  text-align:center;
+  text-decoration: none;
+  padding-top:0.5%;
 }
 #painel{
   background-color:#a8a8a8;
