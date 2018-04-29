@@ -53,8 +53,8 @@ body{
   height:50vh;
 }
 #painel img{
-  width:35vw;
-  height:35vh;
+  width:40%;
+  height:65%;
   display:inline;
   margin-left:2vw;
   margin-top:2vh;
@@ -76,7 +76,7 @@ body{
   text-align: center;
   padding-bottom:2%;
   font-family: 'Open Sans',sans-serif;
-  font-size: 1.6vw;
+  font-size: 22px;
 }
 .textos h1{
   text-align: center;
@@ -117,6 +117,7 @@ body{
   margin-left:12vw;
   margin-top:3vh;
   box-shadow:0px 6px 4px gray;
+
 }
 
 @media only screen and (max-width:990px) {
@@ -135,7 +136,17 @@ body{
   }
   .textos{
     display:block;
-    margin-right:25vw;
+    margin-right:5vw;
+    width:80vw;
+  }
+  .textos p{
+    margin-left:-4vw;
+    width:80vw;
+    font-size:20px;
+  }
+  .textos h1{
+    margin-right:10vw;
+    font-size:30px;
   }
   #conteudo1{
     display:block;
@@ -143,5 +154,37 @@ body{
   #painel img{
     display:block;
     margin:auto;
+    width:60%;
+    height:45%;
   }
+
+}
+
+@media only screen and (max-width:770px)
+{
+    #Menu1 ul{
+      display:none;
+    }
+    #painel{
+      height:70vh;
+    }
+    .textos{
+      width:70vw;
+      margin-right:12vw;
+    }
+    .textos h1{
+      margin-right:5vw;
+      width:70vw;
+      font-size:30px;
+
+    }
+    .textos p{
+      width:80vw;
+      margin-left:-8vw;
+      font-size:16px;
+    }
+    #painel img{
+      width:90%;
+      height:70%;
+    }
 }
