@@ -4,21 +4,23 @@ body{
 }
 #cabecalho{
   background-color:#000000;
-  height:50px;
-  width:100%;
+  height:60px;
+  padding-bottom:2vh;
+  width:100vw;
   box-shadow:0px 6px 4px gray;
+  z-index:1;
 }
 #Menu1{
   display:inline;
 }
 #Menu1 ul{
-  margin-left:55%;
-  margin-top:-0.2%;
+  margin-left:51vw;
+  display:inline-block;
 }
 #Menu1 li{
   display:inline;
   list-style:none;
-  margin-left:3%;
+  margin-left:1vw;
 }
 
 #Menu1 a{
@@ -26,23 +28,34 @@ body{
   font-family:'Open Sans', sans-serif;
   color:white;
 }
+#Menu1 a:hover{
+  transition:0.5s;
+  border-bottom:5px solid #245c6b;
+}
+#Menu1 #BotaoContato:hover{
+  transition:0.5s;
+  border-bottom:5px solid #a8a8a8;
+}
 #BotaoContato{
-  position:absolute;
-  margin-left:80%;
-  margin-top:-3.3%;
+  position:relative;
+  margin-left:5vw;
   background-color:#a8a8a8;
   border:none;
-  width:10%;
-  height:5%;
+  width:150px;
+  height:40px;
   font-family: 'Open Sans', sans-serif;
   color:white;
   font-weight:bold;
-  font-size:1.2em;
+  font-size:18px;
   border-radius:25px;
   display:inline-block;
   text-align:center;
   text-decoration: none;
-  padding-top:0.5%;
+  padding-top:1.4vh;
+}
+
+section{
+  width:100vw;
 }
 h1{
   font-family: 'Open sans', sans-serif;
@@ -58,23 +71,25 @@ h1 span{
   border-style:solid;
   border-color:black;
   border-width:2px;
+  width:400px;
+  margin-left:35vw;
   font-family:'Open Sans', sans-serif;
   margin-top:2%;
 }
 #nome{
-  margin-left:35%;
+
   display:block;
-  width:25%;
+
 }
 #email{
   display:block;
-  margin-left:35%;
-  width:25%;
+
+
 }
 #description{
   display:block;
-  margin-left:35%;
-  width:25%;
+
+
   padding-top:-25%;
   height:250px;
 }
@@ -84,8 +99,35 @@ h1 span{
   font-family:'Open Sans',sans-serif;
   color: white;
   margin-left:44vw;
-  width:8vw;
-  height:5vh;
+  width:150px;
+  height:50px;
   margin-top:3vh;
   border-radius:5px;
+}
+@media only screen and (max-width:990px) {
+  #Menu1 ul{
+    margin-left:30vw;
+  }
+  #BotaoContato{
+    margin-left:15vw;
+  }
+  .campos{
+    margin-left:30vw;
+  }
+}
+
+@media only screen and  (max-width:770px){
+  #Menu1 ul{
+    display:none;
+  }
+  .campos{
+    margin-left:5vw;
+    width:80vw;
+  }
+  h1{
+    margin-left:5vw;
+  }
+  #BotaoContato{
+    margin-left:5vw;
+  }
 }
