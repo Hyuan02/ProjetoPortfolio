@@ -119,8 +119,8 @@ body{
   text-align: center;
 }
 #descricao img{
-  width:8%;
-  height:8%;
+  width:140px;
+  height:140px;
   border-radius:360px;
   display:inline;
   margin-left:12vw;
@@ -171,6 +171,9 @@ body{
 
 @media only screen and (max-width:770px)
 {
+    body{
+      overflow-x:none;
+    }
     #Menu1 ul{
       display:none;
     }
@@ -195,5 +198,11 @@ body{
     #painel img{
       width:90%;
       height:70%;
+    }
+    #descricao img{
+    display:block;
+    }
+    #descricao{
+      margin-left:15%;
     }
 }

@@ -84,6 +84,8 @@ body{
   display:inline-block;
   width:90vw;
   height:400px;
+  margin-left:10vw;
+  margin-bottom:10vh;
 }
 .tipo1 img{
   display:inline;
@@ -92,36 +94,45 @@ body{
   position:relative;
   display:inline;
   float:right;
-  margin-right:55vw;
+  margin-right:56vw;
 }
 .tipo1 em{
   float:right;
   margin-top:-260px;
-  margin-right:55vw;
+  margin-right:57vw;
   display:inline;
 }
 .tipo1 p{
   font-family:'Open Sans', sans-serif;
   float:right;
   margin-top:-220px;
-  margin-right:15vw;
+  margin-right:17vw;
 }
-
+.tipo2{
+  margin-right:2vw;
+  margin-bottom:15vh;
+}
 .tipo2 img{
   position:relative;
   float:right;
   margin-top:-35vh;
-  margin-left:10vw;
+  margin-right:-20vw;
 }
 .tipo2 h2{
-  margin-left:10vw;
+  float:right;
+  margin-right:2vw;
+  margin-top:-15vh;
 }
 .tipo2 em{
-margin-left:10vw;
+float:right;
+margin-top:-10vh;
+margin-right:2vw;
 }
 .tipo2 p{
   font-family:'Open Sans', sans-serif;
-  margin-left:10vw;
+  text-align:right;
+  margin-left:15vw;
+  margin-top:-2vh;
 }
 
 @media only screen and (max-width:990px) {
