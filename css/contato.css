@@ -104,6 +104,22 @@ h1 span{
   margin-top:3vh;
   border-radius:5px;
 }
+#redes{
+  float:right;
+  z-index:-1;
+  margin-right:10vw;
+  margin-top:-70vh;
+  font-family: 'Open sans', sans-serif;
+}
+#redes h2{
+  font-weight:200;
+}
+#redes i:hover{
+  color:#368ba2;
+}
+#redes a{
+  color:inherit;
+}
 @media only screen and (max-width:990px) {
   #Menu1 ul{
     margin-left:30vw;
@@ -114,6 +130,12 @@ h1 span{
   .campos{
     margin-left:30vw;
   }
+  #redes{
+    float: none;
+    margin-top:0;
+    margin-left:45vw;
+  }
+
 }
 
 @media only screen and  (max-width:770px){
