@@ -104,6 +104,10 @@ h1 span{
   margin-top:3vh;
   border-radius:5px;
 }
+#Confirma:hover{
+  transition:0.5s;
+  box-shadow:0px 4px 4px gray;
+}
 #redes{
   float:right;
   z-index:-1;
