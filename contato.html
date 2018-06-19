@@ -5,9 +5,15 @@
     <title></title>
     <link rel="stylesheet" href="fontes/stylefont.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.3.5/jquery.fancybox.min.css" />
     <link rel="stylesheet" href="css/contato.css">
   </head>
   <body>
+    <script type="text/javascript" src="libs/jquery-3.3.1.min.js">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.3.5/jquery.fancybox.min.js"></script>
+    <script type="text/javascript" src="js/index.js">
+    </script>
     <header id="cabecalho">
       <img src="" alt="">
       <nav id="Menu1">
@@ -21,11 +27,11 @@
     </header>
     <section>
       <h1>Entre em <span>contato</span>.</h1>
-      <form class="" action="index.html" method="post">
+      <form class="" method="post">
         <input type="text" name="Nome" value="" placeholder="Seu nome" id="nome" class="campos">
         <input type="text" name="email" value="" placeholder="Seu email" id="email" class="campos">
         <textarea name="name" rows="8" cols="80" id="description" class="campos" placeholder="Diga do que se trata"></textarea>
-        <input type="submit" name="ok" value="Enviar" id="Confirma">
+        <button type="submit" name="ok" id="Confirma">Enviar</button>
       </form>
     </section>
     <aside id="redes">

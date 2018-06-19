@@ -124,6 +124,12 @@ h1 span{
 #redes a{
   color:inherit;
 }
+
+#message{
+  background-color:#245c6b;
+  color:white;
+  font-family:"Open Sans";
+}
 @media only screen and (max-width:990px) {
   #Menu1 ul{
     margin-left:30vw;
