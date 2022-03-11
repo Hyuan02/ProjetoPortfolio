@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Portfolio on Hyuan Farrapo</title>
+    <link>https://hyuan02.github.io/blog/</link>
+    <description>Recent content in Portfolio on Hyuan Farrapo</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 09 Mar 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://hyuan02.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Car Visualizer</title>
+      <link>https://hyuan02.github.io/blog/speed/</link>
+      <pubDate>Wed, 09 Mar 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://hyuan02.github.io/blog/speed/</guid>
+      <description>Car visualizer, with tuning options. Interface developed in Angular (Typescript) inspired by the game Need for Speed Underground 2. Developed a system of communication with the web API, utilizing Unity concepts as JSLib and added post-processing effects.
+Access(PC)</description>
+    </item>
+    
+    <item>
+      <title>Dragon Quiz Brasil</title>
+      <link>https://hyuan02.github.io/blog/dragon/</link>
+      <pubDate>Sat, 24 Apr 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://hyuan02.github.io/blog/dragon/</guid>
+      <description>Game of Trivia Quiz about Dragon Ball. Acted on the implementation and adaptation of the template Trivia Quiz Game, integration with Unity Ads, and special mechanics of the game.
+Download (Android)</description>
+    </item>
+    
+    <item>
+      <title>Ghostly Rhythm</title>
+      <link>https://hyuan02.github.io/blog/ghostly/</link>
+      <pubDate>Sat, 24 Apr 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://hyuan02.github.io/blog/ghostly/</guid>
+      <description>Hipercasual 2D rhythm game. Acted on the programming of the movement system, touch controls, enemies spawning, and camera management.
+Download App (Android)
+GameJolt</description>
+    </item>
+    
+    <item>
+      <title>How to create your game</title>
+      <link>https://hyuan02.github.io/blog/smd/</link>
+      <pubDate>Sat, 24 Apr 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://hyuan02.github.io/blog/smd/</guid>
+      <description>Interactive infographic made for the Game Design course, in the semester of 2019.1. Made the mechanics of movement, organization of sprites, and mechanics of choice.
+Repository</description>
+    </item>
+    
+    <item>
+      <title>Lerni</title>
+      <link>https://hyuan02.github.io/blog/lerni/</link>
+      <pubDate>Sat, 24 Apr 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://hyuan02.github.io/blog/lerni/</guid>
+      <description>An educational game made for teaching a foreign language (Esperanto) to children. Worked on the implementation of all game mechanics and application interaction, as well as animation effects.
+Access(PC/Mobile)</description>
+    </item>
+    
+    <item>
+      <title>RocketDRL</title>
+      <link>https://hyuan02.github.io/blog/rocket/</link>
+      <pubDate>Sat, 24 Apr 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://hyuan02.github.io/blog/rocket/</guid>
+      <description>Software development together with an article that presents an open-source environment, whose mechanics were based on the Rocket League game, including three mini-games, with immersive and complex tasks for training reinforcement learning agents, coupled with the ML-Agents toolkit from Unity, in a customizable way.
+Repository</description>
+    </item>
+    
+    <item>
+      <title>Sombras do Umbral</title>
+      <link>https://hyuan02.github.io/blog/umbral/</link>
+      <pubDate>Sat, 24 Apr 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://hyuan02.github.io/blog/umbral/</guid>
+      <description>Digital interactive HQ in VR, compatible with Google Cardboard, having a Kids on Bikes narrative style. Acted as the main programmer on the project, implementing the whole system of interactions, animation controls, use of Shader Graph for special effects, and system of sound effects.
+Download App (Android)</description>
+    </item>
+    
+  </channel>
+</rss>
